@@ -37,6 +37,8 @@ fun main() {
 class Car() {
     var model: String = ""
     var year: Int = 0
+
+
 }
 
 //Write a class named Book using primary constructor with following features:
@@ -47,7 +49,7 @@ class Car() {
 class Book (var title: String, var author: String, var price: Double, var inStock: Boolean) {
 
     fun bookDetails() {
-        val rounded = String.format("%.2f", price)
+        val rounded = String.format("%.2f", price).toInt()
         if (inStock) {
             println("""
                 Name: $title 
