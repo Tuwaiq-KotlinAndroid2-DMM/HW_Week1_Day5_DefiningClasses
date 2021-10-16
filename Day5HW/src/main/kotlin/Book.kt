@@ -3,7 +3,7 @@ class Book(var Title: String, var Author: String, var Price: Double, var Availab
 
     fun inStock(Ava: Boolean) {
         if (Ava == true)
-            println("Name: " + Title + "\nName: " + Author + "\nPrice: " + Price + "\nAvailability: In Stock")
+            println("Name: " + Title + "\nName: " + Author + "\nPrice: " + Price + " SR"+"\nAvailability: In Stock")
         else
             println("Name: " + Title + "\nName: " + Author + "\nPrice: " + Price + " SR" + "\nAvailability: Out of stock")
     }
